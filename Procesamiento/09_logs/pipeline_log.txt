@@ -1,0 +1,26 @@
+2026-06-11 18:51:04,793 | INFO | ==========================================================================================
+2026-06-11 18:51:04,794 | INFO | Inicio pipeline | modo=prepare
+2026-06-11 18:51:04,794 | INFO | Root: D:\Psicologia\Seminario de investigación\presentación
+2026-06-11 18:51:04,794 | INFO | rapidfuzz disponible: True
+2026-06-11 18:51:04,914 | INFO | Archivo respaldado: D:\Psicologia\Seminario de investigación\presentación\ERIC\ERIC2026-06-11_18.02.50.csv -> D:\Psicologia\Seminario de investigación\presentación\01_raw_exports\ERIC2026-06-11_18.02.50.csv
+2026-06-11 18:51:04,979 | INFO | Archivo respaldado: D:\Psicologia\Seminario de investigación\presentación\SCOPUS\scopus_export_Jun 11-2026_0530af68-403f-432f-892c-ad3cada87cb2.csv -> D:\Psicologia\Seminario de investigación\presentación\01_raw_exports\scopus_export_Jun 11-2026_0530af68-403f-432f-892c-ad3cada87cb2.csv
+2026-06-11 18:51:05,065 | INFO | Archivo respaldado: D:\Psicologia\Seminario de investigación\presentación\wos\savedrecs.csv -> D:\Psicologia\Seminario de investigación\presentación\01_raw_exports\savedrecs.csv
+2026-06-11 18:51:05,332 | INFO | CSV leído: ERIC2026-06-11_18.02.50.csv | encoding=utf-8-sig | sep=',' | shape=(118, 87)
+2026-06-11 18:51:05,869 | INFO | CSV leído: scopus_export_Jun 11-2026_0530af68-403f-432f-892c-ad3cada87cb2.csv | encoding=utf-8-sig | sep=',' | shape=(233, 22)
+2026-06-11 18:51:05,982 | WARNING | Diferencia de conteo Scopus: esperado=223, leído=233
+2026-06-11 18:51:06,297 | INFO | CSV leído: savedrecs.csv | encoding=utf-8-sig | sep=',' | shape=(240, 79)
+2026-06-11 18:51:06,438 | WARNING | Diferencia total: esperado=581, leído=591. Se procesan registros leídos.
+2026-06-11 18:51:06,689 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\02_diagnostics\diagnostico_archivos.xlsx
+2026-06-11 18:51:06,699 | INFO | Diagnóstico texto exportado: D:\Psicologia\Seminario de investigación\presentación\02_diagnostics\diagnostico_archivos.txt
+2026-06-11 18:51:08,346 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\03_unified_database\base_unificada.xlsx
+2026-06-11 18:51:13,421 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\04_deduplication\base_con_duplicados_marcados.xlsx
+2026-06-11 18:51:14,634 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\04_deduplication\base_deduplicada.xlsx
+2026-06-11 18:51:15,204 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\04_deduplication\reporte_duplicados.xlsx
+2026-06-11 18:51:17,189 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\matriz_screening_titulo_resumen.xlsx
+2026-06-11 18:51:18,120 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\resumen_screening_auto.xlsx
+2026-06-11 18:51:18,930 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\06_full_text_screening\matriz_texto_completo.xlsx
+2026-06-11 18:51:19,016 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\08_final_corpus\matriz_extraccion_final.xlsx
+2026-06-11 18:51:19,074 | INFO | Excel exportado: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\tabla_prisma.xlsx
+2026-06-11 18:51:19,075 | INFO | Flujo PRISMA texto exportado: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\flujo_prisma_ppt.txt
+2026-06-11 18:51:19,948 | INFO | Flujo PRISMA PNG exportado: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\flujo_prisma.png
+2026-06-11 18:51:19,952 | INFO | Archivo respaldado: D:\Psicologia\Seminario de investigación\presentación\prisma_pipeline_ansiedad_matematica.py -> D:\Psicologia\Seminario de investigación\presentación\10_scripts_backup\prisma_pipeline_ansiedad_matematica.py

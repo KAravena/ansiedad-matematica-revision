@@ -1,0 +1,10 @@
+================================================================================
+Fecha: 2026-06-11T18:58:12
+Input: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\matriz_screening_titulo_resumen.xlsx
+Registros en matriz original: 346
+Registros en alcance de priorización: 346
+Nota modo: No se detectaron decisiones humanas; se genera priorización preliminar sobre todos los registros deduplicados.
+Output matriz_priorizacion_preliminar: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\matriz_priorizacion_preliminar.xlsx
+Output resumen_priorizacion: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\resumen_priorizacion.xlsx
+Output candidatos_top_12_para_revision: D:\Psicologia\Seminario de investigación\presentación\08_final_corpus\candidatos_top_12_para_revision.xlsx
+Output texto_metodologico_priorizacion: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\texto_metodologico_priorizacion.txt

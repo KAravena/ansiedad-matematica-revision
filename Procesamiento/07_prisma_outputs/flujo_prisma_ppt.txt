@@ -1,0 +1,18 @@
+IDENTIFICACIÓN
+ERIC = 118 | Scopus = 233 | WoS = 240
+Total exportado/leído = 591
+↓
+DEDUPLICACIÓN
+Duplicados eliminados = 245
+Registros únicos = 346
+↓
+CRIBADO
+Título y resumen evaluados = 346
+Excluidos = [pendiente]
+↓
+ELEGIBILIDAD
+Textos completos evaluados = [pendiente]
+Excluidos con razones = [pendiente]
+↓
+INCLUSIÓN
+Estudios incluidos = [pendiente]

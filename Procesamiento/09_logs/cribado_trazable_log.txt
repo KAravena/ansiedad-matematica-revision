@@ -1,0 +1,13 @@
+================================================================================
+Fecha: 2026-06-11T19:50:14
+Input: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\matriz_screening_titulo_resumen.xlsx
+Registros únicos procesados: 346
+Excluir probable por reglas: 60
+Incluir probable por reglas: 258
+Dudoso/revisión humana: 28
+Top 12 candidatos preliminares: 12
+Output matriz_cribado_asistido_trazable: D:\Psicologia\Seminario de investigación\presentación\05_title_abstract_screening\matriz_cribado_asistido_trazable.xlsx
+Output reporte_prisma_asistido_preliminar: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\reporte_prisma_asistido_preliminar.xlsx
+Output top12_trazable_para_revision: D:\Psicologia\Seminario de investigación\presentación\08_final_corpus\top12_trazable_para_revision.xlsx
+Output texto_metodologico_cribado_trazable: D:\Psicologia\Seminario de investigación\presentación\07_prisma_outputs\texto_metodologico_cribado_trazable.txt
+Advertencia: cribado asistido por reglas; requiere validación humana.

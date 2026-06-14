@@ -1,0 +1,11 @@
+TEXTO METODOLÓGICO PARA PRESENTACIÓN
+
+Después de la deduplicación quedaron 346 registros únicos para cribado. Estos registros deben ser evaluados por título y resumen según criterios de inclusión y exclusión previamente definidos. Para apoyar la organización del proceso se generó una priorización preliminar basada en una rúbrica de siete criterios: centralidad de la ansiedad matemática, claridad de la población escolar, medición explícita del constructo, vínculo con dimensiones educativas, aporte metodológico, aporte a los objetivos de la revisión y diversidad del corpus. Esta priorización no reemplaza la decisión humana: los artículos seleccionados deben ser revisados manualmente y, en caso de duda, pasar a texto completo. La priorización se reporta como herramienta de apoyo al cribado, no como sustituto del flujo PRISMA.
+
+CÓMO REPORTARLO EN PRISMA
+
+Para reportar el proceso según PRISMA, se debe distinguir entre registros identificados/leídos, duplicados eliminados, registros únicos cribados, registros excluidos por título/resumen, textos completos evaluados, textos completos excluidos con razones y estudios finalmente incluidos. En este caso, el punto de partida posterior al pipeline fue: 591 registros leídos, 245 duplicados eliminados y 346 registros únicos para cribado. Las cifras de exclusión por título/resumen, texto completo e inclusión final deben completarse después de la revisión humana. La priorización preliminar solo ordena los registros para facilitar el cribado; no reemplaza la elegibilidad ni la decisión final de inclusión.
+
+ADVERTENCIA
+
+La priorización automática no sustituye la revisión humana ni la lectura crítica de los artículos.
