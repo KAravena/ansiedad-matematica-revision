@@ -1,6 +1,6 @@
 # Ansiedad Matemática en Educación Escolar: Revisión de la Literatura Empírica Reciente
 
-![Presentación Quarto RevealJS](https://karavena.github.io/ansiedad-matematica-revision/Presentacion_Revealjs/presentacion_ansiedad_matematica.html#/)
+[Presentación Quarto RevealJS](https://karavena.github.io/ansiedad-matematica-revision/Presentacion_Revealjs/presentacion_ansiedad_matematica.html#/)
 
 Este repositorio contiene los materiales, scripts y la presentación finalcorrespondientes a la investigación: **"Ansiedad matemática en estudiantes de educación escolar: Definiciones, medición y dimensiones educativas asociadas en la literatura empírica reciente"**.
 
