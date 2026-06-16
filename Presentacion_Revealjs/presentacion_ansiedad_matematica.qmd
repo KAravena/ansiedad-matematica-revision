@@ -47,22 +47,22 @@ Una dimensión emocional del aprendizaje matemático, la experiencia de aprender
 <h3>¿Qué es?</h3>
 
 - Malestar, tensión o preocupación frente a situaciones matemáticas.  
-  [@hembree1990nature; @ashcraft2002math]{.microcite}
+  <span class="microcite">[@hembree1990nature; @ashcraft2002math]</span>
 - Puede aparecer en clases, pruebas, ejercicios o participación oral.  
-  [@dowker2016mathematics]{.microcite}
+  <span class="microcite">[@dowker2016mathematics]</span>
 - No siempre ocurre solo durante la tarea: también puede anticiparse.  
-  [@ashcraft2002math; @dowker2016mathematics]{.microcite}
+  <span class="microcite">[@ashcraft2002math; @dowker2016mathematics]</span>
 :::
 
 ::: {.intro-card}
 <h3>¿Por qué importa en educación?</h3>
 
 - Se asocia con rendimiento, desempeño y actitudes hacia la matemática.  
-  [@hembree1990nature; @dowker2016mathematics]{.microcite}
+  <span class="microcite">[@hembree1990nature; @dowker2016mathematics]</span>
 - Puede relacionarse con evitación de actividades o trayectorias matemáticas.  
-  [@ashcraft2002math]{.microcite}
+  <span class="microcite">[@ashcraft2002math]</span>
 - Permite mirar cómo viven la matemática, no solo el rendimiento.
-  [@dowker2016mathematics]{.microcite}
+  <span class="microcite">[@dowker2016mathematics]</span>
 :::
 
 :::
@@ -79,22 +79,22 @@ Una literatura es amplia y heterogénea.
 <h3>Problema de la literatura</h3>
 
 - La literatura reciente estudia la ansiedad matemática de diversas formas.  
-  [@dowker2016mathematics]{.microcite}
+  <span class="microcite">[@dowker2016mathematics]</span>
 - Varían las definiciones, instrumentos, poblaciones y métodos.
-  [@dowker2016mathematics]{.microcite}
+  <span class="microcite">[@dowker2016mathematics]</span>
 - Esa diversidad dificulta comparar resultados y reconocer patrones comunes.
-  [@grant2009typology; @munn2018systematic]{.microcite}
+  <span class="microcite">[@grant2009typology; @munn2018systematic]</span>
 :::
 
 ::: {.intro-card}
 <h3>Aporte de la revisión</h3>
 
 - Permite entender la ansiedad matemática como parte de la experiencia escolar.
-  [@grant2009typology; @munn2018systematic]{.microcite}
+  <span class="microcite">[@grant2009typology; @munn2018systematic]</span>
 - Ayuda a ordenar su vínculo con rendimiento, motivación, confianza y trayectorias educativas.
-  [@page2021prisma]{.microcite}
+  <span class="microcite">[@page2021prisma]</span>
 - Aporta al campo educativo al identificar patrones, tensiones y vacíos de investigación.
-  [@munn2018systematic]{.microcite}
+  <span class="microcite">[@munn2018systematic]</span>
 :::
 
 :::
@@ -190,10 +190,10 @@ Revisiones · educación superior · formación docente
 
 ::: {.search-code}
 ```text
-( "math anxiety" OR "mathematics anxiety" OR "mathematical anxiety" OR "ansiedad matemática" OR "ansiedad hacia las matemáticas" )
- AND ( student* OR school* OR child* OR adolescent* OR "primary education" OR "secondary education" OR "elementary school" OR "middle school" OR "high school" OR "primary school" OR "secondary school" OR escolar* OR estudiante* OR adolescente* OR primaria OR secundaria ) 
- AND ( "math achievement" OR "mathematics achievement" OR "math performance" OR "mathematics performance" OR "mathematical literacy" OR "math test scores" OR "math learning" OR "math attainment" OR "rendimiento matemático" OR "desempeño matemático" OR "logro matemático" OR "competencia matemática" ) 
- AND NOT ( "systematic review" OR "meta-analysis" OR "literature review" OR review OR university OR undergraduate OR college OR "higher education" OR "pre-service teacher" OR "preservice teacher" OR "teacher education" )
+("math anxiety" OR "mathematics anxiety" OR "mathematical anxiety" OR "ansiedad matemática" OR "ansiedad hacia las matemáticas" OR "ansiedad ante las matemáticas" OR "ansiedad en matemáticas")
+AND (student* OR pupil* OR school* OR child* OR adolescent* OR "primary education" OR "secondary education" OR "elementary school" OR "middle school" OR "high school" OR "primary school" OR "secondary school" OR escolar* OR estudiante* OR alumno* OR niño* OR niña* OR adolescente* OR "educación primaria" OR "educación secundaria" OR primaria OR secundaria OR colegio OR escuela)
+AND ("math achievement" OR "mathematics achievement" OR "math performance" OR "mathematics performance" OR "mathematical literacy" OR "math test scores" OR "math learning" OR "mathematics learning" OR "math attainment" OR "mathematics attainment" OR "problem solving" OR "mathematical problem solving" OR "math skills" OR "mathematical skills" OR "academic achievement" OR "academic performance" OR "school experience" OR motivation OR "math motivation" OR "attitudes toward mathematics" OR "rendimiento matemático" OR "desempeño matemático" OR "logro matemático" OR "aprendizaje matemático" OR "aprendizaje de las matemáticas" OR "aprendizaje en matemáticas" OR "competencia matemática" OR "alfabetización matemática" OR "habilidades matemáticas" OR "destrezas matemáticas" OR "resolución de problemas" OR "resolución de problemas matemáticos" OR "puntajes en matemáticas" OR "resultados en matemáticas" OR "calificaciones en matemáticas" OR "pruebas de matemáticas" OR "evaluación matemática" OR "rendimiento académico" OR "desempeño académico" OR "logro académico" OR "experiencia escolar" OR motivación OR "motivación matemática" OR "actitudes hacia las matemáticas")
+AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scoping review" OR review OR university OR undergraduate OR college OR "higher education" OR "pre-service teacher" OR "preservice teacher" OR "teacher education" OR "revisión sistemática" OR "revision sistematica" OR metaanálisis OR "meta análisis" OR "meta-analisis" OR "revisión de literatura" OR "revision de literatura" OR "educación superior" OR "educacion superior" OR universidad OR universitario* OR pregrado OR "formación docente" OR "formacion docente" OR "formación de profesores" OR "formacion de profesores" OR "formación inicial docente" OR "formacion inicial docente")
 ```
 :::
 
@@ -541,10 +541,10 @@ Revisiones · educación superior · formación docente
 ::: {.scripts-two-cols}
 
 ::: {.script-card .script-one}
-<h3>Script 1</h3>
+<h3>Preparación de la base bibliográfica</h3>
 
 ::: {.script-label}
-Preparación de la base bibliográfica
+Idea clave: limpió, ordenó, normalizó y deduplicó la base.
 :::
 
 ::: {.script-flow}
@@ -558,17 +558,13 @@ Preparación de la base bibliográfica
 <li>Unificó registros en una sola matriz.</li>
 <li>Eliminó duplicados por DOI y título.</li>
 </ul>
-
-::: {.script-key}
-Idea clave: limpió, ordenó, normalizó y deduplicó la base.
-:::
 :::
 
 ::: {.script-card .script-two}
-<h3>Script 2</h3>
+<h3>Cribado asistido y priorización</h3>
 
 ::: {.script-label}
-Cribado asistido y priorización
+Idea clave: preclasificó y priorizó registros para revisión.
 :::
 
 ::: {.script-flow}
@@ -580,12 +576,9 @@ Cribado asistido y priorización
 <li>Buscó señales de inclusión y exclusión.</li>
 <li>Clasificó registros como incluir probable, excluir probable o dudoso.</li>
 <li>Aplicó una rúbrica de prioridad de 0 a 14 puntos.</li>
-<li>Priorizó candidatos para revisión humana.</li>
+<li>Priorizó candidatos para revisión.</li>
 </ul>
 
-::: {.script-key}
-Idea clave: preclasificó y priorizó registros para revisión humana.
-:::
 :::
 
 :::
@@ -593,6 +586,10 @@ Idea clave: preclasificó y priorizó registros para revisión humana.
 ::: {.rubric-box}
 Rúbrica 0–14: C1 ansiedad matemática · C2 población escolar · C3 medición explícita · C4 dimensión educativa · C5 aporte metodológico · C6 aporte a objetivos · C7 diversidad del corpus.<br>
 Cada criterio: 0–2 puntos. Prioriza; no decide.
+:::
+
+::: {style="display: flex; justify-content: center; width: 100%; margin-top: 15px;"}
+<span class="microcite" style="text-align: center;">[@rethlefsen2021prisma]</span>
 :::
 
 ## Sobre el uso de IA 
@@ -607,6 +604,21 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 
 # Resultados {.xlarge data-background-color="#009366"}
 
+## Caracterización y síntesis del corpus {.results-slide .corpus-integrated-slide}
+
+::: {.corpus-table-wrap}
+
+| Rasgo del corpus | Resultado |
+|---|---|
+| **Periodo de publicación** | 2022–2026 |
+| **Artículos principales** | 10 |
+| **Contextos** | Europa, Asia, África y estudios comparativos |
+| **Niveles educativos** | Primaria y secundaria |
+| **Enfoques metodológicos** | SEM, multinivel, regresión y path analysis |
+| **Foco común** | Ansiedad matemática y desempeño/aprendizaje |
+| **Variables asociadas** | Rendimiento, apoyo, género, memoria, atención y engagement |
+
+:::
 
 ## Matriz de caracterización del corpus I {.results-slide .corpus-matrix-slide .smaller}
 
@@ -628,21 +640,7 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 | [@ma2025] | China | 92 estudiantes de 7.º grado | Correlación, regresión jerárquica y moderación | Mathematics Anxiety Scale | Memoria de trabajo y rendimiento | Memoria de trabajo modera relación ansiedad-rendimiento |
 | [@guo2022] | Shanghai-China / Estados Unidos | 1.676 en Shanghai-China y 1.511 en EE.UU. | Modelos multinivel y path analysis | Índice PISA de ansiedad matemática | Oportunidad de aprender, problemas y rendimiento | Ansiedad como mediadora entre oportunidades y desempeño |
 
-## Caracterización y síntesis del corpus {.results-slide .corpus-integrated-slide}
 
-::: {.corpus-table-wrap}
-
-| Rasgo del corpus | Resultado |
-|---|---|
-| **Periodo de publicación** | 2022–2026 |
-| **Artículos principales** | 10 |
-| **Contextos** | Europa, Asia, África y estudios comparativos |
-| **Niveles educativos** | Primaria y secundaria |
-| **Enfoques metodológicos** | SEM, multinivel, regresión y path analysis |
-| **Foco común** | Ansiedad matemática y desempeño/aprendizaje |
-| **Variables asociadas** | Rendimiento, apoyo, género, memoria, atención y engagement |
-
-:::
 
 ## Resultado 1: definiciones y operacionalización {.results-slide .result-detail-slide .text-wide}
 

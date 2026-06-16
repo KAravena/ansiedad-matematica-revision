@@ -1,0 +1,5 @@
+---
+bibliography: references.bib
+---
+
+<span class="microcite">[@hembree1990nature; @ashcraft2002math]</span>
