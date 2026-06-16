@@ -113,7 +113,7 @@ Caracterizar cómo la literatura reciente define, mide y analiza la ansiedad mat
 
 2.  **Instrumentos y métodos:** Describir instrumentos, diseños y enfoques metodológicos utilizados en los estudios.
 
-3.  **Dimensiones educativas:** Sintetizar dimensiones educativas asociadas, especialmente aprendizaje, rendimiento y experiencia escolar.
+3.  **Dimensiones educativas:** Sistematizar las dimensiones educativas asociadas a la ansiedad matemática en estudiantes de educación escolar.
 
 :::
 
@@ -719,7 +719,7 @@ Respecto del segundo objetivo, los estudios muestran un fuerte predominio de ins
 ## Resultado 3: dimensiones educativas asociadas {.results-slide .result-detail-slide .text-wide}
 
 ::: {.results-lead}
-Objetivo 3: Sintetizar dimensiones educativas asociadas, especialmente aprendizaje, rendimiento y experiencia escolar.
+Objetivo 3: Sistematizar las dimensiones educativas asociadas a la ansiedad matemática en estudiantes de educación escolar.
 :::
 
 ::: {.result-highlight}
