@@ -11,6 +11,7 @@ format:
     self-contained: true
     center: false
 bibliography: references.bib
+link-citations: true
 editor: visual
 ---
 
@@ -611,21 +612,21 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 
 | Autor/a y año | País/contexto | Nivel educativo / muestra | Diseño o enfoque | Medición de ansiedad matemática | Dimensión educativa asociada | Aporte para la revisión |
 |---|---|---|---|---|---|---|
-| Piccirilli et al. (2023) | Italia | 9.º grado, secundaria técnico-vocacional | Longitudinal | Escala de ansiedad matemática; AMAS como palabra clave | Habilidades matemáticas y rendimiento | Ansiedad como indicador temprano de riesgo |
-| Aras & Bekdemir (2026) | Türkiye | 330 estudiantes de 5.º a 7.º y sus padres | SEM | Parental Math Anxiety Scale y Math Anxiety Scale | Ansiedad parental, ansiedad estudiantil y rendimiento | Ansiedad estudiantil como mediadora |
-| Huang (2026) | Vietnam / PISA 2022 | 6.068 estudiantes | SEM con mediaciones | Índices PISA de ansiedad matemática | Apoyo familiar, apoyo docente, género y rendimiento | Apoyo familiar/docente se asocia indirectamente al rendimiento |
-| Kusmaryono et al. (2022) | Indonesia | 100 estudiantes | Mixto, SEM, CFA y path analysis | Cuestionario Likert | Motivación, rol docente, contenido matemático y aprendizaje | Matiza la visión negativa de la ansiedad |
-| Shimizu (2025) | Japón | 240 estudiantes de 11.º grado | Encuesta y SEM multigrupo | Ansiedad matemática / ansiedad de aprendizaje matemático | Engagement, autoeficacia, diagramas y resolución de problemas | Integra ansiedad, autoeficacia, heurísticas y engagement |
+| [@piccirilli2023] | Italia | 9.º grado, secundaria técnico-vocacional | Longitudinal | Escala de ansiedad matemática; AMAS como palabra clave | Habilidades matemáticas y rendimiento | Ansiedad como indicador temprano de riesgo |
+| [@aras2026] | Türkiye | 330 estudiantes de 5.º a 7.º y sus padres | SEM | Parental Math Anxiety Scale y Math Anxiety Scale | Ansiedad parental, ansiedad estudiantil y rendimiento | Ansiedad estudiantil como mediadora |
+| [@huang2026] | Vietnam / PISA 2022 | 6.068 estudiantes | SEM con mediaciones | Índices PISA de ansiedad matemática | Apoyo familiar, apoyo docente, género y rendimiento | Apoyo familiar/docente se asocia indirectamente al rendimiento |
+| [@kusmaryono2022] | Indonesia | 100 estudiantes | Mixto, SEM, CFA y path analysis | Cuestionario Likert | Motivación, rol docente, contenido matemático y aprendizaje | Matiza la visión negativa de la ansiedad |
+| [@shimizu2025] | Japón | 240 estudiantes de 11.º grado | Encuesta y SEM multigrupo | Ansiedad matemática / ansiedad de aprendizaje matemático | Engagement, autoeficacia, diagramas y resolución de problemas | Integra ansiedad, autoeficacia, heurísticas y engagement |
 
 ## Matriz de caracterización del corpus II {.results-slide .corpus-matrix-slide .smaller}
 
 | Autor/a y año | País/contexto | Nivel educativo / muestra | Diseño o enfoque | Medición de ansiedad matemática | Dimensión educativa asociada | Aporte para la revisión |
 |---|---|---|---|---|---|---|
-| Orbach & Fritz (2022) | Alemania | 403 escolares de 4.º y 5.º | Análisis lineales y perfiles latentes | Ansiedad estado ante prueba matemática y ansiedad general | Atención sostenida y fluidez aritmética | Vincula ansiedad, atención y rendimiento aritmético |
-| Iyamuremye et al. (2022) | Ruanda | 415 estudiantes de Senior Two / grado 8 | Cuantitativo correlacional, t-test y SEM | Cuestionario de ansiedad matemática | Enfoque docente, rendimiento, carrera y género | Relaciona enseñanza, ansiedad, desempeño y aspiraciones |
-| Finell et al. (2024) | Suecia | 429 estudiantes de grado 4, tres mediciones | Psicométrico, CFA e invariancia | Versión sueca abreviada de MARS-E, 16 ítems | Rendimiento, autoconcepto, ansiedad ante pruebas y género | Validez y confiabilidad para primaria |
-| Ma & Sun (2025) | China | 92 estudiantes de 7.º grado | Correlación, regresión jerárquica y moderación | Mathematics Anxiety Scale | Memoria de trabajo y rendimiento | Memoria de trabajo modera relación ansiedad-rendimiento |
-| Guo & Liao (2022) | Shanghai-China / Estados Unidos | 1.676 en Shanghai-China y 1.511 en EE.UU. | Modelos multinivel y path analysis | Índice PISA de ansiedad matemática | Oportunidad de aprender, problemas y rendimiento | Ansiedad como mediadora entre oportunidades y desempeño |
+| [@orbach2022] | Alemania | 403 escolares de 4.º y 5.º | Análisis lineales y perfiles latentes | Ansiedad estado ante prueba matemática y ansiedad general | Atención sostenida y fluidez aritmética | Vincula ansiedad, atención y rendimiento aritmético |
+| [@iyamuremye2022] | Ruanda | 415 estudiantes de Senior Two / grado 8 | Cuantitativo correlacional, t-test y SEM | Cuestionario de ansiedad matemática | Enfoque docente, rendimiento, carrera y género | Relaciona enseñanza, ansiedad, desempeño y aspiraciones |
+| [@finell2024] | Suecia | 429 estudiantes de grado 4, tres mediciones | Psicométrico, CFA e invariancia | Versión sueca abreviada de MARS-E, 16 ítems | Rendimiento, autoconcepto, ansiedad ante pruebas y género | Validez y confiabilidad para primaria |
+| [@ma2025] | China | 92 estudiantes de 7.º grado | Correlación, regresión jerárquica y moderación | Mathematics Anxiety Scale | Memoria de trabajo y rendimiento | Memoria de trabajo modera relación ansiedad-rendimiento |
+| [@guo2022] | Shanghai-China / Estados Unidos | 1.676 en Shanghai-China y 1.511 en EE.UU. | Modelos multinivel y path analysis | Índice PISA de ansiedad matemática | Oportunidad de aprender, problemas y rendimiento | Ansiedad como mediadora entre oportunidades y desempeño |
 
 ## Caracterización y síntesis del corpus {.results-slide .corpus-integrated-slide}
 
@@ -643,17 +644,169 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 
 :::
 
-## Categorías según objetivos {.results-slide .categories-objectives-slide .text-wide}
+## Resultado 1: definiciones y operacionalización {.results-slide .result-detail-slide .text-wide}
 
-::: {.objectives-matrix-wrap}
+::: {.results-lead}
+**Objetivo 1:** Identificar definiciones y formas de operacionalización de la ansiedad matemática.
+:::
 
-| Objetivo específico | Categoría de análisis | Qué muestra el corpus | Estudios de apoyo |
-|---|---|---|---|
-| **Objetivo 1**<br>Definiciones y operacionalización | **Ansiedad matemática como constructo medible** | La ansiedad matemática aparece como una variable empírica que se puede medir mediante escalas, cuestionarios e índices estandarizados, vinculados a tensión, preocupación, miedo o incomodidad frente a tareas matemáticas. | [@piccirilli2023]; [@finell2024]; [@ma2025]; [@guo2022] |
-| **Objetivo 2**<br>Instrumentos, diseños y métodos | **Predominio de modelos cuantitativos y psicométricos** | Predominan modelos estadísticos de relaciones complejas: SEM, CFA, path analysis, regresiones, modelos multinivel, perfiles latentes, moderaciones, mediaciones y estudios psicométricos. | [@huang2026]; [@finell2024]; [@guo2022]; [@orbach2022]; [@shimizu2025]; [@aras2026] |
-| **Objetivo 3**<br>Dimensiones educativas asociadas | **Rendimiento, aprendizaje y experiencia escolar** | La ansiedad matemática se vincula con desempeño, logro, fluidez aritmética, adquisición de habilidades y resolución de problemas. También aparece asociada con apoyo familiar/docente, oportunidad de aprender, memoria de trabajo, atención, autoeficacia, engagement, motivación y experiencia escolar. | [@piccirilli2023]; [@huang2026]; [@orbach2022]; [@shimizu2025]; [@iyamuremye2022]; [@ma2025]; [@guo2022] |
-| **Síntesis transversal** | **Ansiedad matemática como mecanismo intermedio** | En varios estudios, la ansiedad matemática aparece como mediadora o como relación modulada entre contexto, cognición y rendimiento. Funciona como parte de procesos educativos más amplios. | [@aras2026]; [@huang2026]; [@iyamuremye2022]; [@ma2025]; [@guo2022] |
+::: {.result-highlight}
+Hallazgo principal: el corpus define la ansiedad matemática como una respuesta emocional específica frente a tareas matemáticas, asociada a tensión, miedo, preocupación, incomodidad o evitación.
+:::
 
+:::: {.result-list-cols}
+
+::: {.result-col}
+
+<h3>Cómo se define</h3> <ul class="clean-result-list"> <li>Malestar emocional frente a números, cálculo o resolución de problemas.</li> <li>Reacción específica ante situaciones matemáticas.</li> <li>Puede aparecer como miedo, tensión, preocupación, incomodidad o rechazo.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Cómo se mide</h3> <ul class="clean-result-list"> <li>Escalas específicas de ansiedad matemática.</li> <li>Cuestionarios tipo Likert.</li> <li>Índices derivados de evaluaciones internacionales.</li> <li>Medidas diferenciadas de ansiedad matemática, ansiedad general o ansiedad ante pruebas.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Qué muestra el corpus</h3> <ul class="clean-result-list"> <li>La ansiedad matemática se transforma en una variable observable.</li> <li>Permite comparar niveles de ansiedad entre estudiantes.</li> <li>Abre la posibilidad de relacionarla con aprendizaje, rendimiento y experiencia escolar.</li> </ul>
+:::
+
+::::
+
+::: {.slide-citations}
+[@piccirilli2023; @finell2024; @ma2025; @guo2022; @huang2026]
+:::
+
+::: {.notes}
+En relación con el primer objetivo, el corpus muestra que la ansiedad matemática se define principalmente como una respuesta emocional específica frente a situaciones matemáticas. Aparece asociada con tensión, miedo, preocupación, incomodidad o evitación. Lo importante es que los estudios no la trabajan solo como una idea general, sino como un constructo medible, a través de escalas, cuestionarios o índices estandarizados. Esto permite conectarla empíricamente con aprendizaje, rendimiento y experiencia escolar.
+:::
+
+## Resultado 2: instrumentos, diseños y métodos {.results-slide .result-detail-slide .text-wide}
+
+::: {.results-lead}
+Objetivo 2: Describir instrumentos, diseños y enfoques metodológicos utilizados en los estudios.
+:::
+
+::: {.result-highlight}
+Hallazgo principal: predominan instrumentos psicométricos y modelos cuantitativos de relaciones complejas, orientados a explicar cómo la ansiedad matemática se vincula con otros factores educativos.
+:::
+
+:::: {.result-list-cols}
+
+::: {.result-col}
+
+<h3>Instrumentos</h3> <ul class="clean-result-list"> <li>AMAS y escalas de ansiedad matemática.</li> <li>MARS-E y estudios de validez/confiabilidad.</li> <li>Índices PISA de ansiedad matemática.</li> <li>Cuestionarios sobre apoyo, enseñanza, motivación, autoeficacia o engagement.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Diseños y muestras</h3> <ul class="clean-result-list"> <li>Estudios transversales y longitudinales.</li> <li>Muestras escolares de primaria y secundaria.</li> <li>Estudios nacionales y comparativos.</li> <li>Uso de datos primarios y bases internacionales como PISA.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Estrategias analíticas</h3> <ul class="clean-result-list"> <li>SEM, CFA y path analysis.</li> <li>Regresiones y modelos multinivel.</li> <li>Mediaciones y moderaciones.</li> <li>Perfiles latentes y análisis psicométricos.</li> </ul>
+:::
+
+::::
+
+::: {.slide-citations}
+[@piccirilli2023; @aras2026; @huang2026; @finell2024; @guo2022; @orbach2022; @shimizu2025; @ma2025]
+:::
+
+::: {.notes}
+Respecto del segundo objetivo, los estudios muestran un fuerte predominio de instrumentos psicométricos y modelos cuantitativos. Aparecen escalas específicas, como AMAS o MARS-E, índices PISA y cuestionarios sobre apoyo, enseñanza, autoeficacia o engagement. En términos metodológicos, predominan SEM, CFA, path analysis, regresiones, modelos multinivel, mediaciones, moderaciones y perfiles latentes. Esto muestra que la literatura busca modelar relaciones complejas, no solo describir la ansiedad matemática.
+:::
+
+## Resultado 3: dimensiones educativas asociadas {.results-slide .result-detail-slide .text-wide}
+
+::: {.results-lead}
+Objetivo 3: Sintetizar dimensiones educativas asociadas, especialmente aprendizaje, rendimiento y experiencia escolar.
+:::
+
+::: {.result-highlight}
+Hallazgo principal: la ansiedad matemática se asocia de forma recurrente con rendimiento y aprendizaje, pero también con dimensiones escolares, familiares, cognitivas y afectivas.
+:::
+
+:::: {.result-list-cols}
+
+::: {.result-col}
+
+<h3>Rendimiento y aprendizaje</h3> <ul class="clean-result-list"> <li>Desempeño matemático.</li> <li>Logro académico.</li> <li>Adquisición de habilidades.</li> <li>Fluidez aritmética.</li> <li>Resolución de problemas.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Contexto familiar y escolar</h3> <ul class="clean-result-list"> <li>Apoyo familiar y docente.</li> <li>Enfoque de enseñanza.</li> <li>Oportunidad de aprender.</li> <li>Expectativas y presión académica.</li> </ul>
+:::
+
+::: {.result-col}
+
+<h3>Procesos cognitivos y afectivos</h3> <ul class="clean-result-list"> <li>Memoria de trabajo y atención.</li> <li>Autoeficacia y engagement.</li> <li>Motivación.</li> <li>Género.</li> </ul>
+:::
+
+::::
+
+::: {.slide-citations}
+[@piccirilli2023; @huang2026; @orbach2022; @shimizu2025; @iyamuremye2022; @ma2025; @guo2022; @aras2026; @kusmaryono2022]
+:::
+
+::: {.notes}
+Para el tercer objetivo, la ansiedad matemática aparece asociada con rendimiento, aprendizaje y experiencia escolar. Se vincula con desempeño, logro, fluidez aritmética, adquisición de habilidades y resolución de problemas. Pero también se relaciona con apoyo familiar y docente, oportunidad de aprender, enfoque de enseñanza, memoria de trabajo, atención, autoeficacia, engagement, motivación y género. Por eso, no se puede entender solo como un problema individual, sino como una dimensión situada en condiciones educativas más amplias.
+:::
+
+## Síntesis transversal: ansiedad matemática como mecanismo intermedio {.results-slide .result-synthesis-slide .text-wide}
+
+::: {.results-lead}
+Síntesis de resultados: la ansiedad matemática articula emoción, cognición, contexto escolar y rendimiento.
+:::
+
+::: {.result-highlight}
+Hallazgo transversal: en varios estudios, la ansiedad matemática funciona como mediadora, moderadora o variable asociada entre condiciones familiares/escolares, procesos cognitivos y resultados educativos.
+:::
+
+::: {.synthesis-flow-clean}
+
+::: {.flow-step}
+<strong>Condiciones familiares y escolares</strong>
+apoyo familiar · apoyo docente · enfoque de enseñanza · oportunidad de aprender · ansiedad parental
+:::
+
+::: {.flow-down}
+↓
+:::
+
+::: {.flow-step}
+<strong>Procesos cognitivos y afectivos</strong>
+memoria de trabajo · atención · autoeficacia · engagement · motivación
+:::
+
+::: {.flow-down}
+↓
+:::
+
+::: {.flow-step}
+<strong>Ansiedad matemática</strong>
+tensión · miedo · preocupación · evitación · presión
+:::
+
+::: {.flow-down}
+↓
+:::
+
+::: {.flow-step}
+<strong>Resultados educativos</strong>
+rendimiento · logro · fluidez aritmética · resolución de problemas · trayectoria matemática
+:::
+
+:::
+
+::: {.slide-citations}
+[@aras2026; @huang2026; @iyamuremye2022; @ma2025; @guo2022; @orbach2022; @shimizu2025]
+:::
+
+::: {.notes}
+Como síntesis transversal, la ansiedad matemática aparece como un mecanismo intermedio. En algunos estudios media la relación entre apoyo familiar o docente y rendimiento; en otros, su relación con el desempeño depende de variables como memoria de trabajo, atención o engagement. También puede estar asociada a la ansiedad parental o a la oportunidad de aprender. Entonces, el aporte de esta revisión es mostrar que la ansiedad matemática conecta emoción, cognición, contexto escolar y resultados educativos.
 :::
 
 # Gracias por su atención! 
@@ -662,6 +815,10 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 
 
 ## Referencias {.smaller}
+
+::: {.refs-note}
+* Artículos del corpus principal de la revisión.
+:::
 
 ::: {#refs}
 :::

@@ -1074,3 +1074,593 @@
 .reveal .search-bases-slide .db-logo:hover {
   filter: grayscale(0%) contrast(1) opacity(100%) !important;
 }
+
+/* =========================================================
+   Resultados por objetivo - corrección editorial final
+   ========================================================= */
+
+.reveal .result-detail-slide h2,
+.reveal .result-synthesis-slide h2 {
+  font-size: 2.45rem !important;
+  line-height: 1.06 !important;
+  margin-bottom: 0.5rem !important;
+  max-width: 1080px !important;
+}
+
+.reveal .result-detail-slide .results-lead,
+.reveal .result-synthesis-slide .results-lead {
+  max-width: 1040px !important;
+  margin: 0.25rem auto 0.55rem auto !important;
+  font-size: 0.76rem !important;
+  line-height: 1.25 !important;
+  color: #5a6570 !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+.reveal .result-detail-slide .result-highlight,
+.reveal .result-synthesis-slide .result-highlight {
+  max-width: 1040px !important;
+  margin: 0.35rem auto 0.8rem auto !important;
+  padding: 0.85rem 1rem !important;
+  background: rgba(11, 107, 87, 0.055) !important;
+  border-left: 4px solid #0b6b57 !important;
+  border-radius: 0.2rem !important;
+  color: #2f3b45 !important;
+  font-size: 0.96rem !important;
+  line-height: 1.32 !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+}
+
+.reveal .result-detail-slide .result-highlight strong,
+.reveal .result-synthesis-slide .result-highlight strong {
+  color: #0b6b57 !important;
+  font-weight: 800 !important;
+}
+
+.reveal .result-detail-slide .result-list-cols {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.25rem !important;
+  max-width: 1080px !important;
+  margin: 0 auto 0.55rem auto !important;
+  align-items: start !important;
+}
+
+.reveal .result-detail-slide .result-col {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  text-align: left !important;
+}
+
+.reveal .result-detail-slide .result-col h3 {
+  color: #0b6b57 !important;
+  font-size: 0.98rem !important;
+  line-height: 1.15 !important;
+  font-weight: 850 !important;
+  margin: 0 0 0.45rem 0 !important;
+  padding-bottom: 0.28rem !important;
+  border-bottom: 1px solid rgba(11, 107, 87, 0.16) !important;
+}
+
+.reveal .result-detail-slide .clean-result-list {
+  list-style: disc !important;
+  margin: 0 !important;
+  padding-left: 1.05rem !important;
+  text-align: left !important;
+}
+
+.reveal .result-detail-slide .clean-result-list li {
+  font-size: 0.82rem !important;
+  line-height: 1.28 !important;
+  margin-bottom: 0.32rem !important;
+  color: #2f3b45 !important;
+  text-align: left !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align-last: auto !important;
+  hyphens: none !important;
+}
+
+.reveal .result-detail-slide .clean-result-list li::marker {
+  color: #0b6b57 !important;
+  font-size: 0.75em !important;
+}
+
+.reveal .slide-citations {
+  max-width: 1040px !important;
+  margin: 0.55rem auto 0.25rem auto !important;
+  color: #6b7d8d !important;
+  font-size: 0.68rem !important;
+  line-height: 1.18 !important;
+  text-align: center !important;
+}
+
+.reveal .slide-citations a {
+  color: #6b7d8d !important;
+  text-decoration: none !important;
+}
+
+.reveal .results-interpretation {
+  max-width: 1040px !important;
+  margin: 0.55rem auto 0 auto !important;
+  padding: 0.55rem 0.75rem 0 0.75rem !important;
+  border-top: 1px solid rgba(95, 111, 124, 0.2) !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  color: #4f5b66 !important;
+  font-size: 0.68rem !important;
+  line-height: 1.24 !important;
+  text-align: left !important;
+}
+
+.reveal .results-interpretation strong {
+  color: #0b6b57 !important;
+  font-weight: 850 !important;
+}
+
+.reveal .result-synthesis-slide .synthesis-flow-clean {
+  max-width: 860px !important;
+  margin: 0.55rem auto !important;
+  text-align: left !important;
+}
+
+.reveal .result-synthesis-slide .flow-step {
+  padding: 0.3rem 0 !important;
+  color: #2f3b45 !important;
+  font-size: 0.76rem !important;
+  line-height: 1.22 !important;
+}
+
+.reveal .result-synthesis-slide .flow-step strong {
+  display: block !important;
+  color: #0b6b57 !important;
+  font-size: 0.84rem !important;
+  margin-bottom: 0.1rem !important;
+}
+
+.reveal .result-synthesis-slide .flow-down {
+  color: #0b6b57 !important;
+  opacity: 0.7 !important;
+  font-size: 0.8rem !important;
+  line-height: 1 !important;
+  margin: 0.08rem 0 !important;
+}
+
+/* =========================================================
+   FIX FINAL REAL - Resultados por objetivos
+   Este bloque debe quedar al FINAL del SCSS
+   ========================================================= */
+
+.reveal .slides section.result-detail-slide h2,
+.reveal .slides section.result-synthesis-slide h2 {
+  font-size: 2.35rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 0.55rem !important;
+  max-width: 1080px !important;
+}
+
+.reveal .slides section.result-detail-slide .results-lead,
+.reveal .slides section.result-synthesis-slide .results-lead {
+  max-width: 1040px !important;
+  margin: 0.25rem auto 0.55rem auto !important;
+  font-size: 0.86rem !important;
+  line-height: 1.28 !important;
+  color: #5a6570 !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+.reveal .slides section.result-detail-slide .result-highlight,
+.reveal .slides section.result-synthesis-slide .result-highlight {
+  max-width: 1040px !important;
+  margin: 0.35rem auto 0.85rem auto !important;
+  padding: 0.9rem 1.05rem !important;
+  background: rgba(11, 107, 87, 0.06) !important;
+  border-left: 5px solid #0b6b57 !important;
+  border-radius: 0.25rem !important;
+  color: #2f3b45 !important;
+  font-size: 1rem !important;
+  line-height: 1.34 !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide .result-highlight strong,
+.reveal .slides section.result-synthesis-slide .result-highlight strong {
+  color: #0b6b57 !important;
+  font-weight: 850 !important;
+}
+
+.reveal .slides section.result-detail-slide .result-list-cols {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.35rem !important;
+  max-width: 1080px !important;
+  margin: 0 auto 0.65rem auto !important;
+  align-items: start !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col h3 {
+  color: #0b6b57 !important;
+  font-size: 1rem !important;
+  line-height: 1.15 !important;
+  font-weight: 850 !important;
+  margin: 0 0 0.45rem 0 !important;
+  padding-bottom: 0.28rem !important;
+  border-bottom: 1px solid rgba(11, 107, 87, 0.16) !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list {
+  list-style: disc !important;
+  margin: 0 !important;
+  padding-left: 1.15rem !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li {
+  font-size: 0.92rem !important;
+  line-height: 1.32 !important;
+  margin-bottom: 0.32rem !important;
+  color: #2f3b45 !important;
+  text-align: left !important;
+  text-align-last: auto !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  hyphens: none !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li::marker {
+  color: #0b6b57 !important;
+  font-size: 0.75em !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations,
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  max-width: 1040px !important;
+  margin: 0.55rem auto 0.25rem auto !important;
+  color: #6b7d8d !important;
+  font-size: 0.72rem !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations a,
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6b7d8d !important;
+  text-decoration: none !important;
+}
+
+/* El bloque de interpretación ya no debe aparecer */
+.reveal .slides section.result-detail-slide .results-interpretation,
+.reveal .slides section.result-synthesis-slide .results-interpretation {
+  display: none !important;
+}
+
+/* =========================================================
+   Ajuste fino final - legibilidad resultados
+   ========================================================= */
+
+.reveal .slides section.result-detail-slide .result-highlight,
+.reveal .slides section.result-synthesis-slide .result-highlight {
+  font-size: 1.08rem !important;
+  line-height: 1.36 !important;
+  padding: 0.95rem 1.1rem !important;
+  max-width: 1080px !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li {
+  font-size: 1rem !important;
+  line-height: 1.34 !important;
+  margin-bottom: 0.36rem !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col h3 {
+  font-size: 1.08rem !important;
+  line-height: 1.18 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.reveal .slides section.result-detail-slide .result-list-cols {
+  max-width: 1120px !important;
+  gap: 1.45rem !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations,
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  font-size: 0.82rem !important;
+  line-height: 1.22 !important;
+  color: #6f8fae !important;
+  margin-top: 0.7rem !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations a,
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-detail-slide .results-lead,
+.reveal .slides section.result-synthesis-slide .results-lead {
+  font-size: 0.92rem !important;
+  line-height: 1.28 !important;
+}
+
+/* =========================================================
+   Ajuste final de distribución vertical y citas - Resultados
+   ========================================================= */
+
+.reveal .slides section.result-detail-slide h2 {
+  font-size: 2.35rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.reveal .slides section.result-detail-slide .results-lead {
+  font-size: 0.94rem !important;
+  line-height: 1.28 !important;
+  margin: 0.2rem auto 0.7rem auto !important;
+}
+
+.reveal .slides section.result-detail-slide .result-highlight {
+  max-width: 1100px !important;
+  margin: 0.45rem auto 1.05rem auto !important;
+  padding: 1.05rem 1.25rem !important;
+  font-size: 1.08rem !important;
+  line-height: 1.36 !important;
+}
+
+.reveal .slides section.result-detail-slide .result-list-cols {
+  max-width: 1120px !important;
+  gap: 1.55rem !important;
+  margin: 0 auto 1.05rem auto !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col h3 {
+  font-size: 1.12rem !important;
+  line-height: 1.18 !important;
+  margin-bottom: 0.55rem !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li {
+  font-size: 1rem !important;
+  line-height: 1.36 !important;
+  margin-bottom: 0.38rem !important;
+}
+
+/* Citas más visibles y separadas del contenido */
+.reveal .slides section.result-detail-slide .slide-citations,
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  max-width: 1080px !important;
+  margin: 1.25rem auto 0 auto !important;
+  font-size: 0.88rem !important;
+  line-height: 1.25 !important;
+  color: #6f8fae !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations a,
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+/* =========================================================
+   Citas visibles en diapositivas - APA parentético
+   ========================================================= */
+
+.reveal .slide-citations,
+.reveal .microcite,
+.reveal .method-citation,
+.reveal .citation-note {
+  color: #6f8fae !important;
+  font-size: 0.88rem !important;
+  line-height: 1.22 !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slide-citations a,
+.reveal .microcite a,
+.reveal .method-citation a,
+.reveal .citation-note a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slide-citations {
+  max-width: 1080px !important;
+  margin: 0.7rem auto 0 auto !important;
+  text-align: center !important;
+}
+
+/* =========================================================
+   Referencias finales: marcar corpus principal con asterisco
+   ========================================================= */
+
+.reveal #refs #ref-aras2026::before,
+.reveal #refs #ref-finell2024::before,
+.reveal #refs #ref-guo2022::before,
+.reveal #refs #ref-huang2026::before,
+.reveal #refs #ref-iyamuremye2022::before,
+.reveal #refs #ref-kusmaryono2022::before,
+.reveal #refs #ref-ma2025::before,
+.reveal #refs #ref-orbach2022::before,
+.reveal #refs #ref-piccirilli2023::before,
+.reveal #refs #ref-shimizu2025::before {
+  content: "* ";
+  color: #0b6b57;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   Resultados por objetivo - versión estable final
+   ========================================================= */
+
+.reveal .slides section.result-detail-slide h2,
+.reveal .slides section.result-synthesis-slide h2 {
+  font-size: 2.35rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 0.45rem !important;
+  max-width: 1120px !important;
+}
+
+.reveal .slides section.result-detail-slide .results-lead,
+.reveal .slides section.result-synthesis-slide .results-lead {
+  max-width: 1060px !important;
+  margin: 0.2rem auto 0.7rem auto !important;
+  font-size: 0.94rem !important;
+  line-height: 1.28 !important;
+  color: #5a6570 !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+.reveal .slides section.result-detail-slide .result-highlight,
+.reveal .slides section.result-synthesis-slide .result-highlight {
+  max-width: 1100px !important;
+  margin: 0.45rem auto 1.05rem auto !important;
+  padding: 1.05rem 1.25rem !important;
+  background: rgba(11, 107, 87, 0.06) !important;
+  border-left: 5px solid #0b6b57 !important;
+  border-radius: 0.25rem !important;
+  color: #2f3b45 !important;
+  font-size: 1.08rem !important;
+  line-height: 1.36 !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide .result-highlight strong,
+.reveal .slides section.result-synthesis-slide .result-highlight strong {
+  color: #0b6b57 !important;
+  font-weight: 850 !important;
+}
+
+.reveal .slides section.result-detail-slide .result-list-cols {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.55rem !important;
+  max-width: 1120px !important;
+  margin: 0 auto 1.05rem auto !important;
+  align-items: start !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide .result-col h3 {
+  color: #0b6b57 !important;
+  font-size: 1.12rem !important;
+  line-height: 1.18 !important;
+  font-weight: 850 !important;
+  margin: 0 0 0.55rem 0 !important;
+  padding-bottom: 0.28rem !important;
+  border-bottom: 1px solid rgba(11, 107, 87, 0.16) !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list {
+  list-style: disc !important;
+  margin: 0 !important;
+  padding-left: 1.15rem !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li {
+  font-size: 1rem !important;
+  line-height: 1.36 !important;
+  margin-bottom: 0.38rem !important;
+  color: #2f3b45 !important;
+  text-align: left !important;
+  text-align-last: auto !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  hyphens: none !important;
+}
+
+.reveal .slides section.result-detail-slide ul.clean-result-list li::marker {
+  color: #0b6b57 !important;
+  font-size: 0.75em !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations,
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  max-width: 1080px !important;
+  margin: 1rem auto 0 auto !important;
+  color: #6f8fae !important;
+  font-size: 0.88rem !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-detail-slide .slide-citations a,
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-synthesis-slide .synthesis-flow-clean {
+  max-width: 900px !important;
+  margin: 0.6rem auto 0.7rem auto !important;
+  text-align: left !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-step {
+  padding: 0.25rem 0 !important;
+  color: #2f3b45 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.25 !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-step strong {
+  display: block !important;
+  color: #0b6b57 !important;
+  font-size: 1rem !important;
+  margin-bottom: 0.12rem !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-down {
+  color: #0b6b57 !important;
+  opacity: 0.75 !important;
+  font-size: 0.95rem !important;
+  line-height: 1 !important;
+  margin: 0.08rem 0 !important;
+}
+
+/* No debe reaparecer la interpretación inferior */
+.reveal .slides section.result-detail-slide .results-interpretation,
+.reveal .slides section.result-synthesis-slide .results-interpretation {
+  display: none !important;
+}
+
+.reveal .refs-note {
+  font-size: 0.78rem !important;
+  color: #5f6f7c !important;
+  margin-bottom: 0.6rem !important;
+}
