@@ -2087,3 +2087,15 @@
   color: #6f8fae !important;
   text-decoration: none !important;
 }
+
+
+/* =========================================================
+   Ajuste de tamaño para las microcitas (intro y problema)
+   ========================================================= */
+
+.reveal .microcite {
+  font-size: 0.88rem !important;
+  line-height: 1.25 !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.4rem !important;
+}
