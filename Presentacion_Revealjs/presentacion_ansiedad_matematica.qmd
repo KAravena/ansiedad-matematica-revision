@@ -763,38 +763,38 @@ Síntesis de resultados: la ansiedad matemática articula emoción, cognición, 
 Hallazgo transversal: en varios estudios, la ansiedad matemática funciona como mediadora, moderadora o variable asociada entre condiciones familiares/escolares, procesos cognitivos y resultados educativos.
 :::
 
-::: {.synthesis-flow-clean}
+::: {.synthesis-flow-compact}
 
-::: {.flow-step}
-<strong>Condiciones familiares y escolares</strong>
-apoyo familiar · apoyo docente · enfoque de enseñanza · oportunidad de aprender · ansiedad parental
+::: {.flow-row}
+<span class="flow-title">Condiciones familiares y escolares</span>
+<span class="flow-text">apoyo familiar · apoyo docente · enfoque de enseñanza · oportunidad de aprender · ansiedad parental</span>
 :::
 
-::: {.flow-down}
+::: {.flow-arrow-compact}
 ↓
 :::
 
-::: {.flow-step}
-<strong>Procesos cognitivos y afectivos</strong>
-memoria de trabajo · atención · autoeficacia · engagement · motivación
+::: {.flow-row}
+<span class="flow-title">Procesos cognitivos y afectivos</span>
+<span class="flow-text">memoria de trabajo · atención · autoeficacia · engagement · motivación</span>
 :::
 
-::: {.flow-down}
+::: {.flow-arrow-compact}
 ↓
 :::
 
-::: {.flow-step}
-<strong>Ansiedad matemática</strong>
-tensión · miedo · preocupación · evitación · presión
+::: {.flow-row}
+<span class="flow-title">Ansiedad matemática</span>
+<span class="flow-text">tensión · miedo · preocupación · evitación · presión</span>
 :::
 
-::: {.flow-down}
+::: {.flow-arrow-compact}
 ↓
 :::
 
-::: {.flow-step}
-<strong>Resultados educativos</strong>
-rendimiento · logro · fluidez aritmética · resolución de problemas · trayectoria matemática
+::: {.flow-row}
+<span class="flow-title">Resultados educativos</span>
+<span class="flow-text">rendimiento · logro · fluidez aritmética · resolución de problemas · trayectoria matemática</span>
 :::
 
 :::
@@ -813,10 +813,6 @@ Como síntesis transversal, la ansiedad matemática aparece como un mecanismo in
 
 
 ## Referencias {.smaller}
-
-::: {.refs-note}
-* Artículos del corpus principal de la revisión.
-:::
 
 ::: {#refs}
 :::
