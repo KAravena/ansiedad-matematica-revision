@@ -1631,6 +1631,28 @@
   text-align: left !important;
 }
 
+/* Título de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-title {
+  display: block !important;
+  margin: 0 0 0.25rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 1.8rem !important;
+  line-height: 1.15 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.5rem !important;
+  line-height: 1.35 !important;
+  font-weight: 450 !important;
+}
+
 .reveal .slides section.result-synthesis-slide .flow-step {
   padding: 0.25rem 0 !important;
   color: #2f3b45 !important;
@@ -2055,19 +2077,49 @@
   margin: 0 !important;
   padding: 0 !important;
   color: #3d4a55 !important;
-  font-size: 0.82rem !important;
-  line-height: 1.16 !important;
+  font-size: 1.05rem !important;
+  margin: 0 0 0.25rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 1.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.25rem !important;
+  margin: 0 0 0.2rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 1.6rem !important;
+  line-height: 1.15 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.3rem !important;
+  line-height: 1.35 !important;
   font-weight: 450 !important;
 }
 
 /* Flechas compactas pero visibles */
 .reveal .slides section.result-synthesis-slide .flow-arrow-compact {
-  margin: 0.04rem auto !important;
+  margin: 0.35rem auto !important;
   padding: 0 !important;
-  height: 0.7rem !important;
-  line-height: 0.7rem !important;
+  height: 1.6rem !important;
+  line-height: 1.6rem !important;
   color: rgba(11, 107, 87, 0.75) !important;
-  font-size: 0.95rem !important;
+  font-size: 2.2rem !important;
   text-align: center !important;
 }
 
@@ -2098,4 +2150,229 @@
   line-height: 1.25 !important;
   margin-top: 0.25rem !important;
   margin-bottom: 0.4rem !important;
+}
+
+/* =========================================================
+   Ajuste EXTRA GRANDE para la síntesis transversal
+   ========================================================= */
+
+.reveal .slides section.result-synthesis-slide .flow-title {
+}
+
+/* Citas al final, visibles pero compactas */
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  max-width: 1000px !important;
+  margin: 0.25rem auto 0 auto !important;
+  padding: 0 !important;
+  font-size: 0.68rem !important;
+  line-height: 1.15 !important;
+  color: #6f8fae !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   Síntesis transversal - versión editorial equilibrada
+   ========================================================= */
+
+.reveal .slides section.result-synthesis-slide {
+  top: 0 !important;
+  transform: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  padding-top: 0.2rem !important;
+}
+
+/* Título más arriba y con buen tamaño */
+.reveal .slides section.result-synthesis-slide h2 {
+  font-size: 2.15rem !important;
+  line-height: 1.05 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.45rem !important;
+  max-width: 1160px !important;
+}
+
+/* Frase de síntesis bajo el título */
+.reveal .slides section.result-synthesis-slide .results-lead {
+  max-width: 1040px !important;
+  margin: 0.1rem auto 0.55rem auto !important;
+  padding: 0 !important;
+  font-size: 0.88rem !important;
+  line-height: 1.18 !important;
+  color: #5f6f7c !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+/* Hallazgo principal más legible, pero todavía compacto */
+.reveal .slides section.result-synthesis-slide .result-highlight {
+  max-width: 1080px !important;
+  margin: 0.25rem auto 0.55rem auto !important;
+  padding: 0.65rem 0.9rem !important;
+  background: rgba(11, 107, 87, 0.055) !important;
+  border-left: 5px solid #0b6b57 !important;
+  border-radius: 0.22rem !important;
+  font-size: 0.98rem !important;
+  line-height: 1.28 !important;
+  color: #2f3b45 !important;
+  text-align: left !important;
+}
+
+/* Contenedor del flujo: compacto pero más grande */
+.reveal .slides section.result-synthesis-slide .synthesis-flow-compact {
+  max-width: 980px !important;
+  margin: 0.35rem auto 0.4rem auto !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0.04rem !important;
+}
+
+/* Cada nivel del flujo */
+.reveal .slides section.result-synthesis-slide .flow-row {
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 !important;
+  padding: 0.18rem 0.25rem !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Reset de márgenes heredados */
+.reveal .slides section.result-synthesis-slide .flow-row p,
+.reveal .slides section.result-synthesis-slide .flow-arrow-compact p,
+.reveal .slides section.result-synthesis-slide .synthesis-flow-compact p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Título de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-title {
+  display: block !important;
+  margin: 0 0 0.05rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 0.96rem !important;
+  line-height: 1.08 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.05rem !important;
+  margin: 0 0 0.25rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 1.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.25rem !important;
+  margin: 0 0 0.2rem 0 !important;
+  padding: 0 !important;
+  color: #0b6b57 !important;
+  font-size: 1.6rem !important;
+  line-height: 1.15 !important;
+  font-weight: 850 !important;
+}
+
+/* Texto de cada nivel */
+.reveal .slides section.result-synthesis-slide .flow-text {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #3d4a55 !important;
+  font-size: 1.3rem !important;
+  line-height: 1.35 !important;
+  font-weight: 450 !important;
+}
+
+/* Flechas compactas pero visibles */
+.reveal .slides section.result-synthesis-slide .flow-arrow-compact {
+  margin: 0.35rem auto !important;
+  padding: 0 !important;
+  height: 1.6rem !important;
+  line-height: 1.6rem !important;
+  color: rgba(11, 107, 87, 0.75) !important;
+  font-size: 2.2rem !important;
+  text-align: center !important;
+}
+
+/* Citas más visibles */
+.reveal .slides section.result-synthesis-slide .slide-citations {
+  max-width: 1040px !important;
+  margin: 0.4rem auto 0 auto !important;
+  padding: 0 !important;
+  font-size: 0.82rem !important;
+  line-height: 1.18 !important;
+  color: #6f8fae !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.reveal .slides section.result-synthesis-slide .slide-citations a {
+  color: #6f8fae !important;
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   Ajuste de tamaño para las microcitas (intro y problema)
+   ========================================================= */
+
+.reveal .microcite {
+  font-size: 0.88rem !important;
+  line-height: 1.25 !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* =========================================================
+   Ajuste MEDIO-GRANDE para la síntesis transversal
+   ========================================================= */
+
+.reveal .slides section.result-synthesis-slide .flow-title {
+  font-size: 1.25rem !important;
+  line-height: 1.15 !important;
+  margin-bottom: 0.15rem !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-text {
+  font-size: 1.05rem !important;
+  line-height: 1.2 !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-arrow-compact {
+  font-size: 1.35rem !important;
+  height: 1.35rem !important;
+  line-height: 1.35rem !important;
+  margin: 0.15rem auto !important;
+}
+
+.reveal .slides section.result-synthesis-slide .synthesis-flow-compact {
+  gap: 0.2rem !important;
+}
+
+.reveal .slides section.result-synthesis-slide .flow-row {
+  padding: 0.25rem 0.3rem !important;
 }
