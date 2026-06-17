@@ -205,7 +205,8 @@ AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scopi
 ::: {.criteria-card .include}
 <h3>Incluye</h3>
 <ul>
-<li>Artículos empíricos y cuantitativos</li>
+<li>Artículos empíricos</li>
+<li>Revisión por pares</li>
 <li>Publicados entre 2021 y 2026</li>
 <li>Estudiantes de educación escolar</li>
 <li>Medición explícita de ansiedad matemática</li>
@@ -258,11 +259,11 @@ AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scopi
 :::
 
 ::: {.flow-arrow}
-↓ cribado y revisión
+↓ tamizado y revisión
 :::
 
 ::: {.selection-step}
-<span class="flow-number">20</span>
+<span class="flow-number">30</span>
 <span class="flow-label">textos completos revisados</span>
 :::
 
@@ -351,8 +352,8 @@ AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scopi
 .reveal .selection-flow-slide .selection-source-breakdown {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(260px, 1fr)) !important;
-  gap: 0.75rem !important;
-  max-width: 760px !important;
+  gap: 1rem !important;
+  max-width: 860px !important;
   margin: 1.25rem auto 0.35rem auto !important;
   align-items: start !important;
 }
@@ -362,22 +363,22 @@ AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scopi
   border: 1px solid rgba(0, 0, 0, 0.07) !important;
   border-left: 4px solid #0b6b57 !important;
   border-radius: 0.65rem !important;
-  padding: 0.4rem 0.6rem !important;
+  padding: 0.6rem 1rem !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.035) !important;
 }
 
 .reveal .selection-flow-slide .source-phase-card > strong {
   display: block !important;
-  margin-bottom: 0.22rem !important;
+  margin-bottom: 0.4rem !important;
   color: #0b6b57 !important;
-  font-size: 0.62rem !important;
+  font-size: 0.9rem !important;
   line-height: 1.1 !important;
   font-weight: 750 !important;
 }
 
 .reveal .selection-flow-slide .source-phase-card p {
-  margin: 0 0 0.22rem 0 !important;
-  font-size: 0.62rem !important;
+  margin: 0 0 0.3rem 0 !important;
+  font-size: 0.9rem !important;
   line-height: 1.1 !important;
   font-weight: 750 !important;
   color: #0b6b57 !important;
@@ -385,15 +386,15 @@ AND NOT ("systematic review" OR "meta-analysis" OR "literature review" OR "scopi
 
 .reveal .selection-flow-slide .source-phase-card table {
   width: 100% !important;
-  font-size: 0.58rem !important;
-  line-height: 1.1 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.2 !important;
   margin: 0 !important;
   border-collapse: collapse !important;
 }
 
 .reveal .selection-flow-slide .source-phase-card th,
 .reveal .selection-flow-slide .source-phase-card td {
-  padding: 0.12rem 0.2rem !important;
+  padding: 0.25rem 0.35rem !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.055) !important;
 }
 
@@ -561,18 +562,18 @@ Idea clave: limpió, ordenó, normalizó y deduplicó la base.
 :::
 
 ::: {.script-card .script-two}
-<h3>Cribado asistido y priorización</h3>
+<h3>tamizado asistido y priorización</h3>
 
 ::: {.script-label}
 Idea clave: preclasificó y priorizó registros para revisión.
 :::
 
 ::: {.script-flow}
-346 registros únicos → 20 candidatos preliminares
+346 registros únicos → 30 candidatos preliminares
 :::
 
 <ul>
-<li>Construyó texto de cribado.</li>
+<li>Construyó texto de tamizado.</li>
 <li>Buscó señales de inclusión y exclusión.</li>
 <li>Clasificó registros como incluir probable, excluir probable o dudoso.</li>
 <li>Aplicó una rúbrica de prioridad de 0 a 14 puntos.</li>
@@ -604,7 +605,7 @@ Su uso se concentró en la planificación metodológica, formulación de ecuacio
 
 # Resultados {.xlarge data-background-color="#009366"}
 
-## Caracterización y síntesis del corpus {.results-slide .corpus-integrated-slide}
+## Síntesis del corpus {.results-slide .corpus-integrated-slide}
 
 ::: {.corpus-table-wrap}
 
